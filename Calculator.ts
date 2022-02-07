@@ -3,7 +3,7 @@
 // доступные операции сложение, вычитание, умножение и деление
 
 export class Calculator {
-    calculate(a:number|string, operation:string, b:number|string):number|string {
+    calculate(a: number | string, operation: string, b: number | string): number | string {
         const validOperatorList = ['*', '/', '+', '-'];
         const validFirstNum = !isNaN(+a);
         const validSecondNum = !isNaN(+b);

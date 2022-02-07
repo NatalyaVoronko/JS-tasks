@@ -24,7 +24,7 @@ describe('Test calculator', () => {
     })
 
     test('Not a number', () => {
-        expect(calculator.calculate('f', '+', 2)).toBe('Only numbers can be counted')
+        expect(calculator.calculate('f', '+', 2)).toBe('Only numbers can be counted');
     })
 
 
