@@ -14,7 +14,7 @@ export class Calculator {
         }
 
         if (!validOperator) {
-            return 'Next operators are supported:/ * + -'
+            return 'Next operators are supported:/ * + -';
         }
 
         switch (operation) {
