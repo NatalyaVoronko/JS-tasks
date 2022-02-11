@@ -10,12 +10,13 @@ export class Calculator {
         const validOperator = validOperatorList.includes(operation);
 
         if (!validFirstNum || !validSecondNum) {
-            return 'Only numbers can be counted';
+            throw new Error('Only numbers can be counted');
         }
 
         if (!validOperator) {
-            return 'Next operators are supported:/ * + -';
+            throw new Error('Next operators are supported:/ * + -');
         }
+
 
         switch (operation) {
             case '+':

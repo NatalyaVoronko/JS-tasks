@@ -1,0 +1,8 @@
+{
+  "collectCoverage": true,
+  "verbose": true,
+  "transform": {
+      "^.+\\.ts?$": "ts-jest"
+  },
+  "testRegex": "((\\.|/*.)(spec|test))\\.ts?$"
+}
